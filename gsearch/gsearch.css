@@ -1,0 +1,44 @@
+.gsc-input .gsc-input-box, .gsc-search-button { height: 45px !important }
+.gsc-input .gsc-input { height: 40px !important }
+.gsc-result { margin: 1% 0 }
+.gs-image-box.gs-web-image-box.gs-web-image-box-portrait { height: 52px !important }
+.gsc-orderby-label .gsc-selected-option-container{ min-width: 100px !important }
+
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
